@@ -17,7 +17,7 @@ The pictures are real screenshots of the app. The data in the pictures are chang
 - Javascript
 - REST (http communication with ABRA Gen system)
 
-The app works, but it tries to fetch orders from ABRA Gen system, which is inside the company, so if you try to run it on your mobile phone, it will suppose you are connected to company's wifi
+The app works, but it tries to fetch orders from ABRA Gen system, which is inside the company, so if you try to run it on your mobile phone, it will suppose you are connected to company's wifi. The purpose of this repository is only to have a look at the code.
 
 ## App description
 The purpose of the app is to provide an overview and a tool for managing orders to be delivered for controllers in Country life company. With the app, the controllers are able to see orders planned to chosen day in an app and they dont have to go to computer and slowly find the orders. Also, controllers can move the orders as they stand near the orders. The app also supports finding the specific order via QR code, which is on each order.
