@@ -32,7 +32,6 @@ export default function OrderDetail({route}) {
             />
         </View>
             */}
-
         </View>
     )
 }

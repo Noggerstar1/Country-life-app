@@ -19,7 +19,6 @@ export default function HandleChangeTrace({navigation, route}) {
     const [isLoading, setIsLoading] = useState(false);
 
 
-
     useEffect(() => {
         if (allSwitchesOn()) {
             setChangeTraceDisabled(false);
@@ -73,8 +72,6 @@ export default function HandleChangeTrace({navigation, route}) {
         return (<View style={styles.emptyFill}></View>)
     }
 
-
-
     const onSubmit = () => {
         setIsLoading(true);
         const date = changes[0].date;
@@ -106,9 +103,7 @@ export default function HandleChangeTrace({navigation, route}) {
 
     return (
         <View style={styles.content}>
-
             <CustomText style={globalStyles.headingText}>Vypořádání změn tras</CustomText>
-
 
             <View style={styles.groupIcons}>
                 <Entypo name="shopping-bag" size={24} color="#E7E0EC"/>
@@ -150,11 +145,9 @@ export default function HandleChangeTrace({navigation, route}) {
                                 {item.fruitVeg !== null ? getSwitchButton(item.id, 'fruitVeg') : getEmptyFill()}
                                 {item.pastry !== null ? getSwitchButton(item.id, 'pastry') : getEmptyFill()}
 
-
                             </View>
                         </View>)
                     }}
-
                 />
             </View>
             <View style={{marginBottom: 10}}>
@@ -166,8 +159,6 @@ export default function HandleChangeTrace({navigation, route}) {
                         text="Přeřadit objednávky"/>
 
                 )}
-
-
             </View>
         </View>
 

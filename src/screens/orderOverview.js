@@ -116,7 +116,6 @@ export default function OrderOverview({route, navigation}) {
                 <CustomText style={globalStyles.headingText}>Přehled objednávky</CustomText>
                 <CustomText>{order.orderName}</CustomText>
 
-
                 <CustomText style={styles.productsHeading}>Provozovna</CustomText>
                 <CustomText style={globalStyles.bold}>{order.firmOffice_name}</CustomText>
                 <CustomText>{order.street}</CustomText>

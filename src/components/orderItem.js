@@ -9,9 +9,11 @@ import {globalStyles} from "../styles/global";
 export default function OrderItem({item, chooseMode, changeMode, addCount, deductCount, navigation}) {
     const [selected, setSelected] = useState(false)
 
+
     useEffect(() => {
         setSelected(item.selected);
     }, [item])
+
 
     const getLeftIcon = () => {
         if (chooseMode) {
@@ -59,6 +61,7 @@ export default function OrderItem({item, chooseMode, changeMode, addCount, deduc
         }
         return styles.defaultLayout;
     }
+
 
     return (
         <TouchableOpacity onPress={onPress} onLongPress={onLongPressAction} activeOpacity={0.8} delayLongPress={200}>

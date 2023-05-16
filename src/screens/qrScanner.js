@@ -6,6 +6,7 @@ import CustomText from "../components/customText";
 export default function QrScanner({navigation}) {
     const [hasPermission, setHasPermission] = useState(null);
 
+
     useEffect(() => {
         return navigation.addListener('focus', () => {
             setHasPermission(false);
@@ -27,6 +28,7 @@ export default function QrScanner({navigation}) {
     if (hasPermission === false) {
         return <CustomText>No access to camera</CustomText>;
     }
+
 
     return (
         <View style={styles.container}>

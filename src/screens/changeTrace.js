@@ -58,7 +58,6 @@ export default function ChangeTrace({route, navigation}) {
                 <>
                     <CustomText style={globalStyles.headingText}>Přesunout objednávku</CustomText>
 
-
                     <View style={styles.selectListsContainer}>
                         <View style={styles.fromTrace}>
                             <CustomText style={styles.black}>{ordersToUpdate[0].trace === '0' || ordersToUpdate[0].trace === '' ? "Bez přiřazení"

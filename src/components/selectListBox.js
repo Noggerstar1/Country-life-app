@@ -30,6 +30,7 @@ export default function SelectListBox({setSelected, unusedTracesDisabled, data})
         disabled: unusedTracesDisabled && !isTraceActive(data, `0`) && !isTraceActive(data, '')
     });
 
+
     return (
         <SelectList
             setSelected={setSelected}

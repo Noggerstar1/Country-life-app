@@ -8,12 +8,12 @@ import {globalStyles} from '../../styles/global';
 export default function CalendarHeader({navigation, date}) {
     const [showCalendar, setShowCalendar] = useState(false);
     const [currentDate, setCurrentDate] = useState(date);
+    let dateString = currentDate.getDate() + '.' + (currentDate.getMonth() + 1) + '.';
 
     useEffect(() => {
         setCurrentDate(date)
     }, [date])
 
-    let dateString = currentDate.getDate() + '.' + (currentDate.getMonth() + 1) + '.';
 
     const onChange = (event, selectedDate) => {
         setShowCalendar(false);
@@ -30,6 +30,7 @@ export default function CalendarHeader({navigation, date}) {
             && dateInput.getMonth() === today.getMonth()
             && dateInput.getDate() === today.getDate()
     }
+
 
     return (
         <View style={globalStyles.headerContainer}>
