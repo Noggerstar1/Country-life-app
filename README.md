@@ -1,11 +1,10 @@
 # Country-life-app
 Mobile app in React Native used by Country life company for overview and management of orders to be delivered
 ## Screenshots
-<img src="https://github.com/Noggerstar1/Country-life-app/assets/106750938/5345cb28-bbc9-44fd-a12a-9afe162d31d7" width="225" height="500">
-<img src="https://github.com/Noggerstar1/Country-life-app/assets/106750938/1d30b1a3-c147-41de-885f-a437be59ab34" width="225" height="500">
-<br>
-<img src="https://github.com/Noggerstar1/Country-life-app/assets/106750938/80646f4b-c44c-4549-9645-016c584f4e5a" width="225" height="500">
-<img src="https://github.com/Noggerstar1/Country-life-app/assets/106750938/a159796c-ba78-436a-b71c-a7da0f25ea4c" width="225" height="500">
+<img src="https://github.com/Noggerstar1/Country-life-app/assets/106750938/5345cb28-bbc9-44fd-a12a-9afe162d31d7" width="200" height="444">
+<img src="https://github.com/Noggerstar1/Country-life-app/assets/106750938/1d30b1a3-c147-41de-885f-a437be59ab34" width="200" height="444">
+<img src="https://github.com/Noggerstar1/Country-life-app/assets/106750938/80646f4b-c44c-4549-9645-016c584f4e5a" width="200" height="444">
+<img src="https://github.com/Noggerstar1/Country-life-app/assets/106750938/a159796c-ba78-436a-b71c-a7da0f25ea4c" width="200" height="444">
 
 <br>
 <br>
